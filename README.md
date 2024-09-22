@@ -52,7 +52,7 @@ Look for a line mentioning your device (e.g., `cp210x converter now attached to 
 
 ### 3. Edit the dev container config
 
-Inside the [docker-compose.yml](.devcontainer\docker-compose.yml) file look for the parameter line `- devices`. Make sure you mount your device there to make it available inside the dev container. It is possible to add multiple devices to your container.
+Inside the [docker-compose.yml](.devcontainer/docker-compose.yml) file look for the parameter line `- devices`. Make sure you mount your device there to make it available inside the dev container. It is possible to add multiple devices to your container.
 Here’s on how to do that (e.g. for root path = `/dev/ttyUSB0`)
 
 ```bash
